@@ -1,8 +1,16 @@
+#%%
 import pandas as pd
 from taipy.gui import Gui, notify
 import taipy.gui.builder as tgb
 
+df=pd.read_excel("A:\\Quantrade\\Quantrade\\Quantrade\\portfolio\\app\\data\\final_portfolio.xlsx")
 
+
+
+df
+
+
+#%%
 data = pd.read_excel(
     io="supermarket_sales.xlsx",
     engine="openpyxl",
